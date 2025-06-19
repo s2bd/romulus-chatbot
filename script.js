@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let aiResponses = {};
 
     try {
-        const response = await fetch("https://cdn.muxai.cc/romulus-v0.json");
+        const response = await fetch("romulus-v0.json");
         if (response.ok) {
             aiResponses = await response.json();
             typeBotMessage("Welcome to Romulus, the superior AI. Don't waste my time.");
