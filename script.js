@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         if (sender === "bot") {
             const img = document.createElement("img");
-            img.src = "https://dewanmukto.com/asset/images/roman.png";
+            img.src = "https://dewanmukto.github.io/asset/images/roman.png";
             img.alt = "Romulus";
             messageElement.appendChild(img);
         }
